@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="be.bastelstu.jan.wcf.xcache" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>xCache</packagename>
+		<packagedescription></packagedescription>
+		<version>1.0.0</version>
+		<date>2014-01-22</date>
+		<license><![CDATA[GNU LGPL <https://www.gnu.org/licenses/lgpl.html>]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Stricted</author>
+		<authorurl>http://tims.bastelstu.be/</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="eventListener">eventlistener.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+</package>
